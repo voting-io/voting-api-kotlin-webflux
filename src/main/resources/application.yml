@@ -1,0 +1,15 @@
+spring:
+  profiles:
+    active: test
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: swaggerui
+
+springdoc:
+  packagesToScan: io.voting.api
+
+api:
+  version: "${version}"

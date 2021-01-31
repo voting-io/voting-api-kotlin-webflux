@@ -1,0 +1,5 @@
+database:
+  options:
+    driver: "h2"
+    protocol: "mem"
+    database: "voting"
